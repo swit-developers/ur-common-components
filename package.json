@@ -3,6 +3,7 @@
   "main": "./dist/index.js",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
+  "type": "module",
   "private": false,
   "files": [
     "dist",
@@ -13,13 +14,13 @@
     "url": "https://github.com/swit-developers/ur-common-components.git"
   },
   "name": "ur-common-components",
-  "version": "0.6.0",
+  "version": "0.9.0",
   "peerDependencies": {
     "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
+    "@testing-library/react": "^14.0.0",
     "@testing-library/user-event": "^13.5.0",
-    "@types/jest": "^27.5.2",
-    "@types/node": "^16.18.23",
+    "@types/jest": "^29.5.0",
+    "@types/node": "^18.15.11",
     "@types/react": "^18.0.33",
     "@types/react-dom": "^18.0.11",
     "react": "^18.2.0",
