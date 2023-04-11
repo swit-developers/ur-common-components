@@ -1,6 +1,7 @@
 import React from 'react';
 
 type LiItem = {
+  highlight?: boolean,
   content: string,
   href: string
 }
@@ -16,7 +17,7 @@ const FooterItem = (props: IFooterItemProps) => (
     <ul className="text-white text-sm font-medium">
       {props.contents.map((content, index) => (
         <li className="mb-4" key={index}>
-          <a href={content.href} className="hover:underline" target="_blank" rel="noreferrer">
+          <a href={content.href} className={`hover:underline ${content.highlight ? 'font-bold' : 'font-normal' }`} target="_blank" rel="noreferrer">
             {content.content}
           </a>
         </li>

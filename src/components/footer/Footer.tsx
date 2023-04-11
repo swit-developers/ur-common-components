@@ -50,7 +50,7 @@ const Footer = (props: IFooterProps) => (
             {content: 'Help Center', href: 'https://help.swit.io/'},
             {content: 'Release Notes', href: 'https://updates.swit.io/desktop'},
             {content: 'Terms of Service', href: 'https://swit.io/privacy?sub=swit-terms-of-service'},
-            {content: 'Privacy policy', href: 'https://swit.io/privacy?sub=privacy-policy'},
+            {content: 'Privacy policy', href: 'https://swit.io/privacy?sub=privacy-policy', highlight: true},
             {content: 'Cookie Preferences', href: '#'},
             {content: 'Download', href: 'https://swit.io/home/desktop'},
           ]
